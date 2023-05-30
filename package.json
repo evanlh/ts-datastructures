@@ -1,0 +1,27 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "./tasks/build.sh",
+    "build:dev": "./tasks/build.sh -d",
+    "test": "node node_modules/tape/bin/tape **/*.t.js",
+    "release": "./tasks/release.sh"
+  },
+  "author": {
+    "name": "Evan Lawrence-Hurt"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/node": "^20.2.5",
+    "typescript": "^4.8.0"
+  },
+  "dependencies": {
+    "@types/tape": "^5.6.0",
+    "tape": "^5.6.3"
+  }
+}
