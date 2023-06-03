@@ -28,7 +28,7 @@ class RingBuffer<T> {
         return true;
     }
 
-    get(): T {
+    get(): T | undefined {
         if (this.count === 0) return undefined;
 
         const v = this.buffer[this.readptr];

@@ -1,15 +1,20 @@
 {
   "compilerOptions": {
+    "lib": [
+      "es2022"
+    ],
+    "module": "Node16",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
     "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "UMD",
-    "moduleResolution": "Node",
-    "target": "ES2015",
     "removeComments": true
   },
   "include": [

@@ -9,7 +9,8 @@
     "build": "./tasks/build.sh",
     "build:dev": "./tasks/build.sh -d",
     "test": "node node_modules/tape/bin/tape **/*.t.js",
-    "release": "./tasks/release.sh"
+    "release": "./tasks/release.sh",
+    "ts-node": "ts-node"
   },
   "author": {
     "name": "Evan Lawrence-Hurt"
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@types/tape": "^5.6.0",
-    "tape": "^5.6.3"
+    "tape": "^5.6.3",
+    "ts-node": "^10.9.1"
   }
 }
